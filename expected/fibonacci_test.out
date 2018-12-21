@@ -1,0 +1,127 @@
+CREATE EXTENSION fibonacci;
+SELECT fibonacci(0);
+ fibonacci 
+-----------
+         0
+(1 row)
+
+SELECT fibonacci(1);
+ fibonacci 
+-----------
+         1
+(1 row)
+
+SELECT fibonacci(2);
+ fibonacci 
+-----------
+         1
+(1 row)
+
+SELECT fibonacci(3);
+ fibonacci 
+-----------
+         2
+(1 row)
+
+SELECT fibonacci(4);
+ fibonacci 
+-----------
+         3
+(1 row)
+
+SELECT fibonacci(5);
+ fibonacci 
+-----------
+         5
+(1 row)
+
+SELECT fibonacci(6);
+ fibonacci 
+-----------
+         8
+(1 row)
+
+SELECT fibonacci(7);
+ fibonacci 
+-----------
+        13
+(1 row)
+
+SELECT fibonacci(8);
+ fibonacci 
+-----------
+        21
+(1 row)
+
+SELECT fibonacci(9);
+ fibonacci 
+-----------
+        34
+(1 row)
+
+SELECT fibonacci(10);
+ fibonacci 
+-----------
+        55
+(1 row)
+
+SELECT fibonacci(11);
+ fibonacci 
+-----------
+        89
+(1 row)
+
+SELECT fibonacci(12);
+ fibonacci 
+-----------
+       144
+(1 row)
+
+SELECT fibonacci(13);
+ fibonacci 
+-----------
+       233
+(1 row)
+
+SELECT fibonacci(14);
+ fibonacci 
+-----------
+       377
+(1 row)
+
+SELECT fibonacci(15);
+ fibonacci 
+-----------
+       610
+(1 row)
+
+SELECT fibonacci(16);
+ fibonacci 
+-----------
+       987
+(1 row)
+
+SELECT fibonacci(17);
+ fibonacci 
+-----------
+      1597
+(1 row)
+
+SELECT fibonacci(18);
+ fibonacci 
+-----------
+      2584
+(1 row)
+
+SELECT fibonacci(19);
+ fibonacci 
+-----------
+      4181
+(1 row)
+
+SELECT fibonacci(20);
+ fibonacci 
+-----------
+      6765
+(1 row)
+
