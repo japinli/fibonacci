@@ -11,12 +11,12 @@ LANGUAGE plpgsql IMMUTABLE STRICT
     BEGIN
 
         IF n < 1 THEN
-        RETURN 0;
+            RETURN 0;
         END IF;
 
         WHILE counter < n LOOP
-        counter := counter + 1;
-        SELECT j, i + j INTO i, j;
+            counter := counter + 1;
+            SELECT j, i + j INTO i, j;
         END LOOP;
 
         RETURN i;
